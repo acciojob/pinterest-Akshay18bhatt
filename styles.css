@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+.hero{
+	widht:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+#img-div>img{
+	width:450px;
+	height:300px; 
+	object-fit:cover;
+	
+}
+
+
+#text-div>button{
+	background-color:orangered;
+	color:white;
+	padding:10px;
+	border-radius:10px;
+	border:none;
+	
+	
+	
+}
